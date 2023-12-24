@@ -8,6 +8,19 @@ public class PowerOfTwo {
         // For example, 4 is 100 in binary, and 4 - 1 is 011, so 4 & (4 - 1) is 0
         return (n & (n - 1)) == 0;
     }
+
+
+//        public boolean isPowerOfTwo(int n) {
+//        if (n <= 0) {
+//            return false;
+//        }
+//        // Keep dividing n by 2 if it's even
+//        while (n % 2 == 0) {
+//            n /= 2;
+//        }
+//        // If n becomes 1, then it was a power of 2; otherwise, it's not
+//        return n == 1;
+//    }
 }
 
 //Given an integer n, return true if it is a power of two. Otherwise, return false.
