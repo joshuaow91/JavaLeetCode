@@ -27,6 +27,24 @@ public class ReverseLinkedList {
 
         }
 
+
+//            public ListNode reverseList(ListNode head) {
+//        // Base case: if the list is empty or has only one element.
+//        if (head == null || head.next == null) {
+//            return head;
+//        }
+//
+//        // Recursively reverse the rest of the list.
+//        ListNode rest = reverseList(head.next);
+//
+//        // Put the first element at the end.
+//        head.next.next = head;
+//        head.next = null;
+//
+//        // 'rest' now points to the head of the reversed list.
+//        return rest;
+//    }
+
 }
 
 //Given the head of a singly linked list, reverse the list, and return the reversed list.
