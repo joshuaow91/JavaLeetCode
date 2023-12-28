@@ -6,6 +6,25 @@ public class SingleNumber {
         }
         return result;
     }
+
+
+
+//        public int singleNumber(int[] nums) {
+//        Set<Integer> uniqueElements = new HashSet<>();
+//
+//        for (int num : nums) {
+//            // If the set already contains the number, remove it.
+//            if (uniqueElements.contains(num)) {
+//                uniqueElements.remove(num);
+//            } else {
+//                // Otherwise, add the number to the set.
+//                uniqueElements.add(num);
+//            }
+//        }
+//
+//        // The remaining element in the set is the single number.
+//        return uniqueElements.iterator().next();
+//    }
 }
 
 //With XOR "^", numbers that appear twice cancel each other out leaving the number that only appears once left over.
