@@ -19,7 +19,7 @@ public class SearchInsertPosition {
             return left;
         }
 
-
+// alternative solution
 //        public int searchInsert(int[] nums, int target) {
 //    return binarySearch(nums, target, 0, nums.length - 1);
 //}
