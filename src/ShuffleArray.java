@@ -15,6 +15,26 @@ public class ShuffleArray {
         return result; // Step 4: Return the resultant array
     }
 
+    /*
+    public int[] shuffle(int[] nums, int n) {
+        // Create a new array to hold the shuffled elements
+        int[] shuffled = new int[2 * n];
+
+        // Iterate through the first half of the nums array
+        for (int i = 0; i < n; i++) {
+            // Place the current element from the first half
+            shuffled[2 * i] = nums[i];
+            // Place the corresponding element from the second half
+            shuffled[2 * i + 1] = nums[i + n];
+        }
+
+        // Return the shuffled array
+        return shuffled;
+    }
+
+     */
+
+
 
 }
 
